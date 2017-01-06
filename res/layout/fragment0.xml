@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dip" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:minLines="1"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dip" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qity"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editqty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="24"
+        android:maxLines="1"
+        android:minLines="1"
+        android:singleLine="true"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dip" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:inputType="number"
+        android:lines="1"
+        android:maxLength="24"
+        android:maxLines="1"
+        android:minLines="1"
+        android:singleLine="true"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dip" />
+
+    <Button
+        android:id="@+id/buttoninsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>
